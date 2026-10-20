@@ -26,8 +26,3 @@ Smart Parking Garage simulation demonstrating runtime strategy switching, automa
 
 * **Strategy vs. State**: Strategy was chosen because algorithms are selected externally at runtime. State was avoided because garage behaviors do not trigger internal state transitions automatically.
 * **Strategy vs. Template Method**: Strategy was chosen to provide complete algorithm replacement via composition. Template Method was avoided because it relies on inheritance and fixed skeletal steps.
-
-## 3. Refactoring Commit History
-
-* **Before (Legacy procedural code):** `[Вставьте ссылку на коммит 1]`
-* **After (Strategy Pattern implementation):** `[Вставьте ссылку на коммит 2]`
